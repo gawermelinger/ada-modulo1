@@ -7,11 +7,14 @@ main {
     width: 800px;
     margin: auto;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #8fb9aa;
 }
 
 input {
+    width: 100%;
     margin-top: 8px;
     padding: 8px;
+    background-color: aliceblue;
 }
 
 .margin{
@@ -19,16 +22,30 @@ input {
 }
 
 .button{
-    background-color: rgb(111, 111, 155);
+    background-color: #f2d096;
     border: none;
     border-radius: 8px;
-    padding: 12px;
-    color: aliceblue;
+    padding: 14px;
+    color: black;
     display: block;
-    margin: 8px auto;
+    margin: 14px auto;
 }
 
 button:hover{
     text-decoration: underline;
     cursor: pointer;
+}
+
+.align{
+    width: 15px;
+}
+
+fieldset{
+    margin-top: 15px;
+    padding: 30px;
+    border: 1px solid white;
+}
+
+legend{
+    color: aliceblue;
 }
