@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cardápio Digital</title>
+
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+    <header>
+        <div class="tittle">
+            <h1>Pizzaria da Nonna</h1>
+            <p>Confira nossos produtos deliciosos</p>
+        </div>
+
+        <nav>
+            <ul>
+                <li>
+                    <a href="#menu">Catálogo</a>
+                </li>
+                <li>
+                    <a href="#price">Tabela de Preços</a>
+                </li>
+                <li>
+                    <a href="#cad">
+                        Cadastro
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <section>
+
+                <h2 id="menu">Cardápio/Catálogo</h2>
+              
+            <div class="container">
+                <figure>
+                    <img src="assets/pizzaJPG.JPG" alt="Foto da pizza">
+                </figure>
+               
+            <div class="text-container">
+                <h4>Pizza de Queijo e Presunto</h4>
+                <p>Ingredientes: molho de tomate, queijo e presunto</p>
+            </div>
+            </div> 
+            
+            <div class="container">
+                <figure>
+                    <img src="assets/pizzaJPG.JPG" alt="Foto da pizza">
+                </figure>
+               
+            <div class="text-container">
+                <h4>Pizza de Parma</h4>
+                <p>Ingredientes: molho de tomate, queijo grana padano e presunto parma</p>
+            </div>
+            </div> 
+
+            <div class="container">
+                <figure>
+                    <img src="assets/pizzaJPG.JPG" alt="Foto da pizza">
+                </figure>
+               
+            <div class="text-container">
+                <h4>Pizza Margherita</h4>
+                <p>Ingredientes: molho de tomate, queijo, tomate e manjericão</p>
+            </div>
+            </div>
+            
+            <div class="container">
+                <figure>
+                    <img src="assets/pizzaJPG.JPG" alt="Foto da pizza">
+                </figure>
+               
+            <div class="text-container">
+                <h4>Pizza de frango com catupiry</h4>
+                <p>Ingredientes: molho de tomate, frango desfiado e catupiry</p>
+            </div>
+            </div>
+            
+            <div class="container">
+                <figure>
+                    <img src="assets/pizzaJPG.JPG" alt="Foto da pizza">
+                </figure>
+               
+            <div class="text-container">
+                <h4>Pizza Portuguesa</h4>
+                <p>Ingredientes: molho de tomate, queijo, tomate, pimentão, ovos e azeitonas</p>
+            </div>
+            </div> 
+
+            <div class="container">
+                <figure>
+                    <img src="assets/pizzaJPG.JPG" alt="Foto da pizza">
+                </figure>
+               
+            <div class="text-container">
+                <h4>Pizza de 4 Queijos</h4>
+                <p>Ingredientes: molho de tomate, mussarela, parmesão, gorgonzola e provolone</p>
+            </div>
+            </div> 
+
+            <div class="container">
+                <figure>
+                    <img src="assets/pizzaJPG.JPG" alt="Foto da pizza">
+                </figure>
+               
+            <div class="text-container">
+                <h4>Pizza de Lombo Canadense</h4>
+                <p>Ingredientes: molho de tomate, queijo, lombo canadense e tomate</p>
+            </div>
+            </div> 
+        </section>
+
+        <section>
+            <h2 id="price">Tabela de Preços</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Produto</th>
+                        <th>Preço</th>
+                    </tr>
+                </thead>
+    
+                <tbody>
+                    <tr>
+                        <td>Pizza de queijo e presunto</td>
+                        <td>R$ 10,00</td>
+                    </tr>
+                    <tr>
+                        <td>Pizza de parma</td>
+                        <td>R$ 40,00</td>
+                    </tr>
+                    <tr>
+                        <td>Pizza margherita</td>
+                        <td>R$ 20,00</td>
+                    </tr>
+                    <tr>
+                        <td>Pizza de frango com catupiry</td>
+                        <td>R$ 20,00</td>
+                    </tr>
+                    <tr>
+                        <td>Pizza portuguesa</td>
+                        <td>R& 25,00</td>
+                    </tr>
+                    <tr>
+                        <td>Pizza de 4 Queijos</td>
+                        <td>R$ 30,00</td>
+                    </tr>
+                    <tr>
+                        <td>Pizza de lombo canadense</td>
+                        <td>R$ 35,00</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section>
+            <h2 id="cad">Formulário de Cadastro</h2>
+            <form action="">
+                <fieldset>
+                    <div class="form">
+                        <label for="name">Nome:</label>
+                        <input type="text" id="name" name="nome">
+                    </div>
+                    <div class="form">
+                        <label for="email">E-mail:</label>
+                        <input type="email" id="email" name="email">
+                    </div>
+                    <div class="form">
+                        <label for="phone-number">Telefone:</label>
+                        <input type="tel" id="phone-number" name="telefone" pattern="[0-9]{2}-[0-9]{5}-[0-9]{4}" maxlength="13">
+                    </div>
+                    <div class="form">
+                        <label for="msg">Mensagem:</label>
+                        <textarea name="mensagem" id="msg" cols="30" rows="5"></textarea>
+                    </div>
+                    <div class="form">
+                        <button>Enviar</button> 
+                    </div>
+
+                </fieldset>
+            </form>
+        </section>
+    </main>
+
+    <footer> ©️ 2023 Cardápio/Catálogo Digital. Todos os direitos reservados.</footer>
+    
+</body>
+</html>
